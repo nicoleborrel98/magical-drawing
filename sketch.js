@@ -6,7 +6,7 @@ function setup() {
   createCanvas(600, 480);
  background(100, 200, 100);
 }
-  
+
 function draw() {
   noStroke();
   myred = myred + 5;
@@ -18,18 +18,18 @@ function draw() {
     myblue = 255;
   }
   fill(myred, mygreen, myblue);
-  ellipse(mouseX, mouseY, 20, 20);
-  
+  ellipse(mouseX, mouseY, 10, 10);
+
   if (mouseIsPressed){
     fill(255,255,255);
     ellipse(mouseX,mouseY,40);
-    
+
     function circle(x,y,diameter) {
 ellipse(x,y,diameter);
     }
 }
-  
- 
-  
-  
+
+
+
+
 }
